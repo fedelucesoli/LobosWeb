@@ -125,7 +125,7 @@
 </div>
 </section>
 
-<!-- <?php echo $telefonos; ?> -->
+
 
 <section class="banners">
   <div class="container">
