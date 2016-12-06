@@ -1,33 +1,60 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title><?php echo $title; ?></title>
-	<?php echo Asset::css('bootstrap.css'); ?>
-	<style>
-		body { margin: 50px; }
-	</style>
-	<?php echo Asset::js(array(
-		'http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js',
-		'bootstrap.js',
-	)); ?>
-	<script>
-		$(function(){ $('.topbar').dropdown(); });
-	</script>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="bootstrap/favicon.ico"> -->
+
+    <title>LobosWeb</title>
+	
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <link href="bower_components/bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
+
+    <!-- Custom styles for this template -->
+    <?php echo Asset::css('dist/bootstrap.min.css') ?>
+    <?php echo Asset::css('lobostrap/lobostrap.css') ?>
+    <?php echo Asset::css('lobostrap/colores.css') ?>
+
+    <style>body{margin-top: 50px;}</style>
+    <script src="https://use.fontawesome.com/359ed0bee6.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<?php echo Asset::js('bootstrap.min.js') ?>
+
+    <script type="text/javascript">
+    	$('.dropdown').dropdown();
+    </script>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
 
 	<?php if ($current_user): ?>
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">My Site</a>
-			</div>
+			 <div class="navbar-header">
+		            <button type="button" class="navbar-toggle"
+		            data-toggle="collapse"
+		            data-target=".navbar-collapse">
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            </button>
+		            <a class="navbar-brand" href="INDEX.PHP">
+		            	<?php echo Asset::img('logo-municipio.svg', array('alt' => 'Municipio de Lobos', 'height' => '35px')) ?>
+		                
+		            </a>
+		        </div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
 					<li class="<?php echo Uri::segment(2) == '' ? 'active' : '' ?>">
@@ -49,7 +76,7 @@
 					?>
 				</ul>
 				<ul class="nav navbar-nav pull-right">
-					<li class="dropdown">
+					<li class="dropdown  dropdown-menu-left">
 						<a data-toggle="dropdown" class="dropdown-toggle" href="#"><?php echo $current_user->username ?> <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><?php echo Html::anchor('admin/logout', 'Logout') ?></li>
@@ -88,13 +115,7 @@
 			</div>
 		</div>
 		<hr/>
-		<footer>
-			<p class="pull-right">Page rendered in {exec_time}s using {mem_usage}mb of memory.</p>
-			<p>
-				<a href="http://fuelphp.com">FuelPHP</a> is released under the MIT license.<br>
-				<small>Version: <?php echo e(Fuel::VERSION); ?></small>
-			</p>
-		</footer>
+
 	</div>
 </body>
 </html>
