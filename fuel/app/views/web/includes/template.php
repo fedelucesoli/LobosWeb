@@ -19,6 +19,10 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/lobostrap.css" rel="stylesheet">
+    <?php echo Asset::css('dist/bootstrap.min.css') ?>
+    <?php echo Asset::css('lobostrap/lobostrap.css') ?>
+    <?php echo Asset::css('lobostrap/colores.css') ?>
+
     
  <script src="https://use.fontawesome.com/359ed0bee6.js"></script>
     
@@ -32,3 +36,11 @@
   </head>
 
   <body>
+
+  <?php 
+   echo $header;
+
+    echo $contenido;
+
+    echo $footer;
+   ?>

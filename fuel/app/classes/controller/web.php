@@ -21,15 +21,16 @@
  */
 class Controller_Web extends Controller_Template
 {
-	public $template = 'web/template';
+	public $template = 'web/includes/template';
 
+	
 	public function action_index(){
 		
 		$data = array();
-        $this->template->header = Response::forge(View::forge('web/layout/header'));
-        $this->template->footer = Response::forge(View::forge('web/layout/footer'));
+        $this->template->header = Response::forge(View::forge('web/includes/header'));
+        $this->template->footer = Response::forge(View::forge('web/includes/footer'));
 
-        $this->template->content = View::forge('web/index', $data);
+        $this->template->contenido = View::forge('web/secciones/index', $data);
         
 		// return Response::forge(View::forge('web/index'));
 	}
@@ -40,8 +41,10 @@ class Controller_Web extends Controller_Template
 
 		if(isset($seccion) && $existe){
 			$data = array();
-       		$this->template->header = Response::forge(View::forge('web/layout/header'));
-        	$this->template->footer = Response::forge(View::forge('web/layout/footer'));
+       		$this->template->header = Response::forge(View::forge('web/includes/header'));
+        	$this->template->telefonos = Response::forge(View::forge('web/layouts/telefonos'));
+        	$this->template->footer = Response::forge(View::forge('web/includes/footer', $this));
+
         	$this->template->content = View::forge('web/secciones/'.$seccion , $data);
 
 		}else{

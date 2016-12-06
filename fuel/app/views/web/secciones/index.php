@@ -1,5 +1,3 @@
-<?php include('includes/head.php') ?>
-<?php include('includes/header.php') ?>
 
     <div class="container" role="main">
 
@@ -127,7 +125,7 @@
 </div>
 </section>
 
-<?php include('layouts/telefonos.php') ?>
+<!-- <?php echo $telefonos; ?> -->
 
 <section class="banners">
   <div class="container">
@@ -154,4 +152,3 @@
 </div>
 </section>
 
-<?php include('includes/footer.php') ?>
