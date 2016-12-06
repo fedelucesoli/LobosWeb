@@ -1,0 +1,3 @@
+OIL COMMANDS
+
+php oil generate admin post titulo:string slug:string descripcion:string[200] contenido:text categoria_id:int usuario_id:int

@@ -1,0 +1,19 @@
+{
+  "name": "municipiolobos",
+  "version": "1.0.0",
+  "description": "Sitio web del Municipio de Lobos, Buenos Aires, Argentina.",
+  "main": "index.js",
+  "author": "Federico Lucesoli",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
