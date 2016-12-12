@@ -9,7 +9,7 @@
 	<?php foreach ($posts as $item): ?>		<tr>
 		<div class="col-sm-6 col-md-4 col-lg-3 thumb-noticia">
 			<img src="assets/img/noticias/1.jpg" alt="" class="img-responsive">
-			<h5 class="text-muted small">FECHA</h5>
+			<h5 class="text-muted small"></h5>
 			<h4>TITULO</h4>
 		</div>
 	<?php endforeach; ?>
