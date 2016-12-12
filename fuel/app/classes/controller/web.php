@@ -43,9 +43,9 @@ class Controller_Web extends Controller_Template
 			$data = array();
        		$this->template->header = Response::forge(View::forge('web/includes/header'));
         	$this->template->telefonos = Response::forge(View::forge('web/layouts/telefonos'));
-        	$this->template->footer = Response::forge(View::forge('web/includes/footer', $this));
+        	$this->template->footer = Response::forge(View::forge('web/includes/footer'));
 
-        	$this->template->content = View::forge('web/secciones/'.$seccion , $data);
+        	$this->template->contenido = View::forge('web/secciones/'.$seccion , $data);
 
 		}else{
 			

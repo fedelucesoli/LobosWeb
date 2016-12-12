@@ -1,7 +1,9 @@
-<h2>New Post</h2>
+<div class="col-md-8 col-md-offset-2">
+<h2>Nueva noticia</h2>
 <br>
 
 <?php echo render('admin/post/_form'); ?>
 
 
-<p><?php echo Html::anchor('admin/post', 'Back'); ?></p>
+<?php echo Html::anchor('admin/post', 'Atras', array('class'=>'pull-right')); ?>
+</div>

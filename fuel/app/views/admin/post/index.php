@@ -1,41 +1,21 @@
-<h2>Listing Posts</h2>
-<br>
+<div class="row">
+	<h1><?php echo $titulo; ?></h1>
+	<?php echo Html::anchor('admin/post/create', 'Nueva noticia', array('class' => 'btn btn-sm btn-success float-right')); ?>
+</div>
+<hr>
+
 <?php if ($posts): ?>
-<table class="table table-striped">
-	<thead>
-		<tr>
-			<th>Titulo</th>
-			<th>Slug</th>
-			<th>Descripcion</th>
-			<th>Contenido</th>
-			<th>Categoria id</th>
-			<th>Usuario id</th>
-			<th></th>
-		</tr>
-	</thead>
-	<tbody>
-<?php foreach ($posts as $item): ?>		<tr>
-
-			<td><?php echo $item->titulo; ?></td>
-			<td><?php echo $item->slug; ?></td>
-			<td><?php echo $item->descripcion; ?></td>
-			<td><?php echo $item->contenido; ?></td>
-			<td><?php echo $item->categoria_id; ?></td>
-			<td><?php echo $item->usuario_id; ?></td>
-			<td>
-				<?php echo Html::anchor('admin/post/view/'.$item->id, 'View'); ?> |
-				<?php echo Html::anchor('admin/post/edit/'.$item->id, 'Edit'); ?> |
-				<?php echo Html::anchor('admin/post/delete/'.$item->id, 'Delete', array('onclick' => "return confirm('Are you sure?')")); ?>
-
-			</td>
-		</tr>
-<?php endforeach; ?>	</tbody>
-</table>
-
+	<div class="row">
+	<?php foreach ($posts as $item): ?>		<tr>
+		<div class="col-sm-6 col-md-4 col-lg-3 thumb-noticia">
+			<img src="assets/img/noticias/1.jpg" alt="" class="img-responsive">
+			<h5 class="text-muted small">FECHA</h5>
+			<h4>TITULO</h4>
+		</div>
+	<?php endforeach; ?>
+	</div>
 <?php else: ?>
-<p>No Posts.</p>
+<p>No hay noticias para mostrar.</p>
 
-<?php endif; ?><p>
-	<?php echo Html::anchor('admin/post/create', 'Add new Post', array('class' => 'btn btn-success')); ?>
+<?php endif; ?>
 
-</p>

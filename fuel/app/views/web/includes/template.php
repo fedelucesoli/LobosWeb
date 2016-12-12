@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- <link rel="icon" href="bootstrap/favicon.ico"> -->
+    <meta name="author" content="Federico Lucesoli">
+    <link rel="icon" type="image/png" href="<?php echo Asset::get_file('favicon-32x32.png', 'img', 'common') ?>" sizes="32x32" />
+    <link rel="icon" type="image/png" href="<?php echo Asset::get_file('favicon-16x16.png', 'img', 'common') ?>" sizes="16x16" />
+    <link rel="icon" type="image/png" href="<?php echo Asset::get_file('favicon.ico', 'img', 'common') ?>" sizes="16x16" />
 
-    <title>Lobostrap</title>
+    <title>Municipio de Lobos</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- <link href="bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet"> -->
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!-- <link href="bower_components/bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/lobostrap.css" rel="stylesheet">
     <?php echo Asset::css('dist/bootstrap.min.css') ?>
     <?php echo Asset::css('lobostrap/lobostrap.css') ?>
     <?php echo Asset::css('lobostrap/colores.css') ?>

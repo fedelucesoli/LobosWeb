@@ -5,7 +5,8 @@ class Controller_Admin_Post extends Controller_Admin
 	public function action_index()
 	{
 		$data['posts'] = Model_Post::find('all');
-		$this->template->title = "Posts";
+		$data['titulo'] = "Noticias";
+		$this->template->title = "Noticias";
 		$this->template->content = View::forge('admin/post/index', $data);
 
 	}
@@ -13,8 +14,10 @@ class Controller_Admin_Post extends Controller_Admin
 	public function action_view($id = null)
 	{
 		$data['post'] = Model_Post::find($id);
+		$data['titulo'] = "Noticias";
 
-		$this->template->title = "Post";
+		$this->template->title = "Noticias";
+
 		$this->template->content = View::forge('admin/post/view', $data);
 
 	}
@@ -33,7 +36,6 @@ class Controller_Admin_Post extends Controller_Admin
 					'descripcion' => Input::post('descripcion'),
 					'contenido' => Input::post('contenido'),
 					'categoria_id' => Input::post('categoria_id'),
-					'usuario_id' => Input::post('usuario_id'),
 				));
 
 				if ($post and $post->save())
@@ -54,7 +56,7 @@ class Controller_Admin_Post extends Controller_Admin
 			}
 		}
 
-		$this->template->title = "Posts";
+		$this->template->title = "Noticias";
 		$this->template->content = View::forge('admin/post/create');
 
 	}
@@ -103,7 +105,7 @@ class Controller_Admin_Post extends Controller_Admin
 			$this->template->set_global('post', $post, false);
 		}
 
-		$this->template->title = "Posts";
+		$this->template->title = "Noticias";
 		$this->template->content = View::forge('admin/post/edit');
 
 	}

@@ -5,6 +5,7 @@
 .navbar-default{
   border-radius: 0;
   font-family: "Montserrat";
+  border-width: 0 0 1px 0;
 }
 .navbar-lobos{
   margin-left: 0;
@@ -93,6 +94,20 @@ color: white;
 	opacity: 0.8;
 }
 
+/* Secciones */
+.header-seccion{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.header-seccion{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
 
 /* Footer */
 footer{
@@ -105,3 +120,20 @@ footer{
  	border: none;
  }
 
+
+/* Small devices (tablets, 768px and up) */
+@media screen and  (min-width: 768px) {
+.slider{
+    height: 300px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) { 
+  .slider{
+    height: 480px;
+  }
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { ... }

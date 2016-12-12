@@ -22,7 +22,7 @@
 </div>
 
 			<div class="col-md-3">
-		        <img src="assets/img/logo-municipio.svg" alt="Municipio de Lobos">
+           		<?php echo Asset::img('logo-municipio.svg', array('alt' => 'Municipio de Lobos')); ?>
 			</div>
 		</div>
 
@@ -31,8 +31,12 @@
 <hr>
 <div class="container">
 	<div class="row" style="margin-bottom: 60px;">
-		<div class="col-md-6 text-center"><img src="assets/img/common/logo-ministerio-modernizacion.svg" style="height: 60px;" alt=""></div>
-		<div class="col-md-6 text-center"><img src="assets/img/common/logo-pais-digital.svg" style="height: 60px;" alt=""></div>
+		<div class="col-md-6 text-center">
+           	<?php echo Asset::img('common/logo-ministerio-modernizacion.svg', array('alt' => 'Ministerio de Modernizaci&oacute;n', 'style' => 'height:60px')); ?>
+			</div>
+		<div class="col-md-6 text-center">
+           	<?php echo Asset::img('common/logo-pais-digital.svg', array('alt' => 'Pais digital', 'style' => 'height:60px')); ?>
+		</div>
 	</div>
 </div>
 
@@ -43,7 +47,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="bootstrap/bootstrap/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!-- <script src="bootstrap/js/ie10-viewport-bug-workaround.js"></script> -->
   </body>
