@@ -2,7 +2,7 @@
     <div class="container" role="main">
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron slider">
+      <div class="jumbotron slider" style="background-image: url(<?php echo URI::base().'assets/img/slider/1140.png'; ?>)">
         <h1>Slider</h1>
         <a href="noticia.php" class="btn btn-primary">Leer noticia</a>
       </div>

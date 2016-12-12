@@ -50,10 +50,7 @@
 		            <span class="icon-bar"></span>
 		            <span class="icon-bar"></span>
 		            </button>
-		            <a class="navbar-brand" href="INDEX.PHP">
-		            	<?php echo Asset::img('logo-municipio.svg', array('alt' => 'Municipio de Lobos', 'height' => '35px')) ?>
-		                
-		            </a>
+		            <a class="navbar-brand" href="INDEX.PHP">Municipio Lobos</a>
 		        </div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
