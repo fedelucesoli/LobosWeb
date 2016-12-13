@@ -61,10 +61,21 @@ color: white;
 .slider{
 	padding-top: 250px;
 }
+.carousel-control{
+  background-image: none !important;
+}
+.carousel-control .fa {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  margin-top: -10px;
+}
 
 
 /* Botonera */
 .botonera{
+  padding-top:50px;
 }
 
 .boton{

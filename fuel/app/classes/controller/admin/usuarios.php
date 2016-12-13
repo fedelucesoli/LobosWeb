@@ -4,9 +4,9 @@ class Controller_Admin_Usuarios extends Controller_Admin
 
 	public function action_index()
 	{
-		$data['posts'] = Model_Post::find('all');
-		$this->template->title = "Posts";
-		$this->template->content = View::forge('admin/post/index', $data);
+		$data['users'] = Model_User::find('all');
+		$this->template->title = "Usuarios";
+		$this->template->content = View::forge('admin/usuarios/index', $data);
 
 	}
 

@@ -19,9 +19,9 @@
     <!-- <link href="bower_components/bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
-    <?php echo Asset::css('dist/bootstrap.min.css') ?>
-    <?php echo Asset::css('lobostrap/lobostrap.css') ?>
-    <?php echo Asset::css('lobostrap/colores.css') ?>
+    <?php echo Asset::css('dist/bootstrap.css', false) ?>
+    <?php echo Asset::css('lobostrap/lobostrap.css', false) ?>
+    <?php echo Asset::css('lobostrap/colores.css', false) ?>
 
     
  <script src="https://use.fontawesome.com/359ed0bee6.js"></script>

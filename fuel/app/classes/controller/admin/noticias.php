@@ -1,24 +1,24 @@
 <?php
-class Controller_Admin_Post extends Controller_Admin
+class Controller_Admin_Noticias extends Controller_Admin
 {
 
 	public function action_index()
 	{
-		$data['posts'] = Model_Post::find('all');
+		$data['posts'] = Model_Noticias::find('all');
 		$data['titulo'] = "Noticias";
 		$this->template->title = "Noticias";
-		$this->template->content = View::forge('admin/post/index', $data);
+		$this->template->content = View::forge('admin/noticias/index', $data);
 
 	}
 
 	public function action_view($id = null)
 	{
-		$data['post'] = Model_Post::find($id);
+		$data['posts'] = Model_Noticias::find($id);
 		$data['titulo'] = "Noticias";
 
 		$this->template->title = "Noticias";
 
-		$this->template->content = View::forge('admin/post/view', $data);
+		$this->template->content = View::forge('admin/noticias/view', $data);
 
 	}
 
@@ -26,11 +26,11 @@ class Controller_Admin_Post extends Controller_Admin
 	{
 		if (Input::method() == 'POST')
 		{
-			$val = Model_Post::validate('create');
+			$val = Model_Noticias::validate('create');
 
 			if ($val->run())
 			{
-				$post = Model_Post::forge(array(
+				$post = Model_Noticias::forge(array(
 					'titulo' => Input::post('titulo'),
 					'slug' => Input::post('slug'),
 					'descripcion' => Input::post('descripcion'),
@@ -57,14 +57,14 @@ class Controller_Admin_Post extends Controller_Admin
 		}
 
 		$this->template->title = "Noticias";
-		$this->template->content = View::forge('admin/post/create');
+		$this->template->content = View::forge('admin/noticias/create');
 
 	}
 
 	public function action_edit($id = null)
 	{
-		$post = Model_Post::find($id);
-		$val = Model_Post::validate('edit');
+		$post = Model_Noticias::find($id);
+		$val = Model_Noticias::validate('edit');
 
 		if ($val->run())
 		{
@@ -79,7 +79,7 @@ class Controller_Admin_Post extends Controller_Admin
 			{
 				Session::set_flash('success', e('Updated post #' . $id));
 
-				Response::redirect('admin/post');
+				Response::redirect('admin/noticia');
 			}
 
 			else
@@ -106,13 +106,13 @@ class Controller_Admin_Post extends Controller_Admin
 		}
 
 		$this->template->title = "Noticias";
-		$this->template->content = View::forge('admin/post/edit');
+		$this->template->content = View::forge('admin/noticias/edit');
 
 	}
 
 	public function action_delete($id = null)
 	{
-		if ($post = Model_Post::find($id))
+		if ($post = Model_Noticias::find($id))
 		{
 			$post->delete();
 
@@ -124,7 +124,7 @@ class Controller_Admin_Post extends Controller_Admin
 			Session::set_flash('error', e('Could not delete post #'.$id));
 		}
 
-		Response::redirect('admin/post');
+		Response::redirect('admin/noticias');
 
 	}
 

@@ -19,7 +19,7 @@
     <?php echo Asset::css('lobostrap/lobostrap.css') ?>
     <?php echo Asset::css('lobostrap/colores.css') ?>
 
-    <style>body{margin-top: 50px;}</style>
+    <style>body{margin-top: 80px;}</style>
     <script src="https://use.fontawesome.com/359ed0bee6.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<?php echo Asset::js('bootstrap.min.js') ?>
@@ -50,7 +50,9 @@
 		            <span class="icon-bar"></span>
 		            <span class="icon-bar"></span>
 		            </button>
-		            <a class="navbar-brand" href="INDEX.PHP">Municipio Lobos</a>
+		            <a class="navbar-brand" href="<?php echo Uri::base() ?>" style= "padding-top:0px">
+		           	 <?php echo Asset::img('logo-municipio-CMS.svg', array('alt'=>'Municipio de Lobos')) ?>
+		            </a>
 		        </div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">

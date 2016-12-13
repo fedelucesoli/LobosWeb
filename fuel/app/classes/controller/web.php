@@ -26,7 +26,8 @@ class Controller_Web extends Controller_Template
 	
 	public function action_index(){
 		
-		$data = array();
+		$data = array('slider' => Response::forge(View::forge('web/layouts/slider')));
+
         $this->template->header = Response::forge(View::forge('web/includes/header'));
         $this->template->footer = Response::forge(View::forge('web/includes/footer'));
 

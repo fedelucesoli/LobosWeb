@@ -15,7 +15,7 @@
             </a>
         </div>
         
-        <div class="nav navbar-nav navbar-right hidden-xs hidden-sm ">
+        <div class="nav navbar-nav navbar-right hidden-xs hidden-sm">
             <div class="social-wrapper">
                
                 <a href="https://www.facebook.com/municipiolobos" target="_blank">
@@ -51,9 +51,9 @@
             <ul class="nav navbar-nav">
 	            <li><a href="<?php echo URI::base().'web/seccion/ciudad' ?>">CIUDAD</a></li>
 	            <li><a href="<?php echo URI::base().'web/seccion/gobierno' ?>">GOBIERNO</a></li>
-	            <li><a href="servicios.php">SERVICIOS</a></li>
-	            <li><a href="noticias.php">NOTICIAS</a></li>
-	            <li><a href="contacto.php">CONTACTO</a></li>
+	            <!-- <li><a href="servicios.php">SERVICIOS</a></li> -->
+	            <li><a href="<?php echo URI::base().'web/seccion/noticias' ?>">NOTICIAS</a></li>
+	            <li><a href="<?php echo URI::base().'web/seccion/contacto' ?>">CONTACTO</a></li>
             </ul>
         </div>
     </div>

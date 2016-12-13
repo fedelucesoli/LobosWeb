@@ -1,6 +1,10 @@
 <div class="row">
-	<h1><?php echo $titulo; ?></h1>
-	<?php echo Html::anchor('admin/post/create', 'Nueva noticia', array('class' => 'btn btn-sm btn-success float-right')); ?>
+	<div class="col-md-6">
+		<h1 class="pull-left"><?php echo $titulo; ?></h1>
+	</div>
+	<div class="col-md-6">
+		<?php echo Html::anchor('admin/noticias/create', 'Nueva noticia', array('class' => 'btn btn-sm btn-success pull-right')); ?>
+	</div>
 </div>
 <hr>
 

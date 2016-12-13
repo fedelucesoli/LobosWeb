@@ -1,12 +1,12 @@
-
-    <div class="container" role="main">
+<?php echo $slider ?>
+<!--     <div class="container" role="main">
 
       <div class="jumbotron slider" style="background-image: url(<?php echo URI::base().'assets/img/slider/horarios.png'; ?>); background-size: cover; background-position: center center">
-        <!-- <h1>Slider</h1>
-        <a href="noticia.php" class="btn btn-primary">Leer noticia</a> -->
+        <h1>Slider</h1>
+        <a href="noticia.php" class="btn btn-primary">Leer noticia</a>
       </div>
 
-    </div>
+    </div> -->
 
 <section class="botonera">
     <div class="container">

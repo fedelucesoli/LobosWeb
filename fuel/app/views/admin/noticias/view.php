@@ -19,5 +19,5 @@
 	<strong>Usuario id:</strong>
 	<?php echo $post->usuario_id; ?></p>
 
-<?php echo Html::anchor('admin/post/edit/'.$post->id, 'Edit'); ?> |
-<?php echo Html::anchor('admin/post', 'Back'); ?>
+<?php echo Html::anchor('admin/noticias/edit/'.$post->id, 'Edit'); ?> |
+<?php echo Html::anchor('admin/noticias', 'Back'); ?>

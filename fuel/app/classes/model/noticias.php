@@ -1,5 +1,5 @@
 <?php
-class Model_Post extends \Orm\Model
+class Model_Noticias extends \Orm\Model
 {
 	protected static $_properties = array(
 		'id',

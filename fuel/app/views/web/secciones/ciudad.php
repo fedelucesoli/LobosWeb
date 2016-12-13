@@ -22,6 +22,12 @@ Las vaquerías indiscriminadas provocaron la disminución del ganado cimarrón, 
 
 <p>La línea de frontera fue consolidada por el Virrey Vértiz y su Comandante de Artillería de Fronteras Francisco de Betbezé, mediante la construcción o reconstrucción de fuertes en 1779, que fueron origen de importantes localidades bonaerenses, entre ellos el Fortín de San Pedro de Los Lobos.</p>
  
+<figure>
+  <img class="img-responsive img-rounded" src="http://historiasaladillo.com.ar/hs/wp-content/uploads/2015/02/Fort%C3%ADn-Esperanza.jpg">
+  <br>
+  <figcaption class="text-center text-muted">Fortín.</figcaption>
+</figure>
+
 
 <p>El mismo se erigió en la margen norte de la Laguna de Lobos, a trescientos metros de la ribera, en un lugar casi equidistante entre la desembocadura del Arroyo Las Garzas y el punto que nace el Saladillo Rodríguez y su obra se concluyó el 21 de agosto de 1779. El Fortín estaba formado por unos cuantos ranchos de barro y paja, sin puertas ni ventanas, rodeado por una defensa de palos a pique. La presencia de los indios se avisoraba desde el mangrullo. En 1792 lo habitaban 16 milicianos.</p>
  
