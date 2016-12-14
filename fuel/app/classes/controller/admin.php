@@ -92,8 +92,9 @@ class Controller_Admin extends Controller_Base
 	 * @access  public
 	 * @return  void
 	 */
-	public function action_index()
-	{
+	public function action_index(){
+
+		//TODO -> mostrar menus.
 		$this->template->title = 'Dashboard';
 		$this->template->content = View::forge('admin/dashboard');
 	}

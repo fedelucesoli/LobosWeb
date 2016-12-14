@@ -7,7 +7,7 @@ class Model_Noticias extends \Orm\Model
 		'slug',
 		'descripcion',
 		'contenido',
-		'categoria_id',
+		'categoria',
 		'usuario_id',
 		'created_at',
 		'updated_at',
@@ -28,10 +28,7 @@ class Model_Noticias extends \Orm\Model
 	{
 		$val = Validation::forge($factory);
 		$val->add_field('titulo', 'Titulo', 'required|max_length[255]');
-		$val->add_field('slug', 'Slug', 'max_length[255]');
-		$val->add_field('descripcion', 'Descripcion', 'max_length[200]');
 		$val->add_field('contenido', 'Contenido', 'required');
-		$val->add_field('categoria_id', 'Categoria Id', 'valid_string[numeric]');
 		$val->add_field('usuario_id', 'Usuario Id', 'valid_string[numeric]');
 
 		return $val;

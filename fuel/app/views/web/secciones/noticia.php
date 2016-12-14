@@ -1,6 +1,3 @@
-<?php include('includes/head.php') ?>
-<?php include('includes/header.php') ?>
-
 <div class="container">
 <div class="jumbotron noticia" style="background-image: url('assets/img/noticias/2.jpg">
 </div>
@@ -25,4 +22,3 @@ Fuente: Prensa GBA
 	
 </div>
 
-<?php include('includes/footer.php') ?>

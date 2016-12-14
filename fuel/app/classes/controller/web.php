@@ -53,10 +53,53 @@ class Controller_Web extends Controller_Template
 			Response::redirect(Uri::base());
 		}
 		
-		
+	
         
 	}
 
+	public function action_noticias(){
+
+            $data['noticia'] = Model_Noticias::find('all', array(
+            'where' => array(
+                array('slug', '=', $slug),
+                ),
+            ));
+            $data['noticiasrealcionadas'] = Model_Noticias::find('all', array(
+            	'where' => array(
+            		array('categoria', '=', $data['noticia']->categoria)
+            		),
+            	'limit' => '4'
+            	));
+
+
+        $this->template->header = Response::forge(View::forge('web/includes/header'));
+        $this->template->footer = Response::forge(View::forge('web/includes/footer'));
+        $this->template->contenido = View::forge('web/secciones/noticias' , $data);
+
+
+	}
+
+	public function action_noticia($slug = null){
+		if (empty($slug)) {
+			Response::redirect('/web/noticias');
+		}else{
+            $data['noticia'] = Model_Noticias::find('all', array(
+            'where' => array(
+                array('slug', '=', $slug),
+                ),
+            ));
+            $data['noticiasrealcionadas'] = Model_Noticias::find('all', array(
+            	'where' => array(
+            		array('categoria', '=', $data['noticia']->categoria)
+            		),
+            	'limit' => '4'
+            	));
+        }
+
+		$this->template->header = Response::forge(View::forge('web/includes/header'));
+        $this->template->footer = Response::forge(View::forge('web/includes/footer'));
+        $this->template->contenido = View::forge('web/secciones/noticia' , $data);
+	}
 	
 	/**
 	 * The 404 action for the application.

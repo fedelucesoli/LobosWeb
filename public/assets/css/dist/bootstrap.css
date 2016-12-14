@@ -1082,7 +1082,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: 'Domine', "Times New Roman", Times, serif;
+  font-family: 'Montserrat', "Times New Roman", Times, serif;
   font-size: 16px;
   line-height: 1.42857143;
   color: #2f3943;
@@ -1288,6 +1288,7 @@ h6,
 }
 p {
   margin: 0 0 11px;
+  font-family: 'Domine';
 }
 .lead {
   margin-bottom: 22px;

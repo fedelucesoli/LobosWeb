@@ -1,19 +1,39 @@
 <?php
 class Controller_Admin_Noticias extends Controller_Admin
-{
+{	
+	public function before()
+	{
+		parent::before();
+
+		// if (Request::active()->controller !== 'Controller_Admin' or ! in_array(Request::active()->action, array('login', 'logout')))
+		// {
+		// 	if (Auth::check())
+		// 	{
+		// 		$admin_group_id = Config::get('auth.driver', 'Simpleauth') == 'Ormauth' ? 6 : 100;
+		// 		if ( ! Auth::member($admin_group_id))
+		// 		{
+		// 			Session::set_flash('error', e('You don\'t have access to the admin panel'));
+		// 			Response::redirect('/');
+		// 		}
+		// 	}
+		// 	else
+		// 	{
+		// 		Response::redirect('admin/login');
+		// 	}
+		// }
+	}
 
 	public function action_index()
 	{
 		$data['posts'] = Model_Noticias::find('all');
 		$data['titulo'] = "Noticias";
-		$this->template->title = "Noticias";
 		$this->template->content = View::forge('admin/noticias/index', $data);
 
 	}
 
 	public function action_view($id = null)
 	{
-		$data['posts'] = Model_Noticias::find($id);
+		$data['noticia'] = Model_Noticias::find($id);
 		$data['titulo'] = "Noticias";
 
 		$this->template->title = "Noticias";
@@ -32,17 +52,16 @@ class Controller_Admin_Noticias extends Controller_Admin
 			{
 				$post = Model_Noticias::forge(array(
 					'titulo' => Input::post('titulo'),
-					'slug' => Input::post('slug'),
-					'descripcion' => Input::post('descripcion'),
 					'contenido' => Input::post('contenido'),
-					'categoria_id' => Input::post('categoria_id'),
+					'categoria' => Input::post('categoria'),
+					'usuario_id' => 1
 				));
 
 				if ($post and $post->save())
 				{
-					Session::set_flash('success', e('Added post #'.$post->id.'.'));
+					Session::set_flash('success', e('Noticias #'.$post->id.'.'));
 
-					Response::redirect('admin/post');
+					Response::redirect('admin/noticias');
 				}
 
 				else

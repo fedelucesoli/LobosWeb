@@ -15,14 +15,15 @@
     <!-- <link href="bower_components/bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
-    <?php echo Asset::css('dist/bootstrap.min.css') ?>
+    <?php echo Asset::css('dist/bootstrap.css') ?>
     <?php echo Asset::css('lobostrap/lobostrap.css') ?>
     <?php echo Asset::css('lobostrap/colores.css') ?>
+    <?php echo Asset::css('dist/summernote.css') ?>
 
     <style>body{margin-top: 80px;}</style>
     <script src="https://use.fontawesome.com/359ed0bee6.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<?php echo Asset::js('bootstrap.min.js') ?>
+	<?php echo Asset::js(array('bootstrap.min.js', 'summernote.min.js',	'summernote-es-ES.js')) ?>
 
     <script type="text/javascript">
     	$('.dropdown').dropdown();

@@ -85,6 +85,12 @@ color: white;
 }
 .shortcut{
 	text-align: center;
+  padding: 30px 0 15px;
+  border-radius: 5px;
+}
+.shortcut:hover{
+    background-color: #f5f5f5;
+    text-decoration: none;
 }
 .shortcut span {
     color: #fff;
