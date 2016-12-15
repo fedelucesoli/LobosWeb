@@ -1,5 +1,7 @@
 <div class="row">
-	<div class="col-md-3">
+	<div class="col-md-4 col-md-offset-4" style="text-align: center">
+        <?php echo Asset::img('logo-municipio.svg', array('alt' => 'Municipio de Lobos', 'height' => '100px')); ?>
+		<hr>
 		<?php echo Form::open(array()); ?>
 
 			<?php if (isset($_GET['destination'])): ?>
@@ -15,7 +17,7 @@
 				<?php echo Form::input('email', Input::post('email'), array('class' => 'form-control', 'placeholder' => 'Email or Username', 'autofocus')); ?>
 
 				<?php if ($val->error('email')): ?>
-					<span class="control-label"><?php echo $val->error('email')->get_message('You must provide a username or email'); ?></span>
+					<span class="control-label"><?php echo $val->error('email')->get_message('Es necesario el email'); ?></span>
 				<?php endif; ?>
 			</div>
 

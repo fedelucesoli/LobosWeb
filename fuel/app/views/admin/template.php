@@ -7,7 +7,10 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <!-- <link rel="icon" href="bootstrap/favicon.ico"> -->
+        <link rel="icon" type="image/png" href="<?php echo Asset::get_file('favicon-32x32.png', 'img', 'common') ?>" sizes="32x32" />
+    <link rel="icon" type="image/png" href="<?php echo Asset::get_file('favicon-16x16.png', 'img', 'common') ?>" sizes="16x16" />
+    <link rel="icon" type="image/png" href="<?php echo Asset::get_file('favicon.ico', 'img', 'common') ?>" sizes="16x16" />
+
 
     <title>LobosWeb</title>
 	

@@ -57,12 +57,38 @@ class Controller_Admin_Noticias extends Controller_Admin
 					'usuario_id' => 1
 				));
 
-				if ($post and $post->save())
-				{
-					Session::set_flash('success', e('Noticias #'.$post->id.'.'));
+				if ($post and $post->save()){
+					$config = array(
+					    'path' => DOCROOT.'images',
+					    'ext_whitelist' => array('img', 'jpg', 'jpeg', 'gif', 'png'),
+					);
 
+					Upload::process($config);
+					if (!Upload::is_valid()){
+						Session::set_flash('error', e('Las imagenes tienen algun error'));
+						//todo enviar mail					
+					}else{
+						Upload::save();
+						$saved_image = Upload::get_files();
+
+						foreach ($saved_image as $key => $file) {
+							$props = array(
+								'id_propiedad' => $post->id,
+								'name' => $file['saved_as'],
+								'thumb' => 'thumbs/'. $file['saved_as'],
+								'destacada' => 0
+								);
+
+							  $filepath=$file['saved_to'].$file['saved_as'];
+							  $filepaththumb = DOCROOT.'thumbs/'.$file['saved_as'];
+							  $image = Image::forge()->load($filepath) ->resize(400) ->save($filepaththumb);
+
+						}
+
+					Session::set_flash('success', e('Noticias #'.$post->id.'.'));
 					Response::redirect('admin/noticias');
 				}
+			}
 
 				else
 				{

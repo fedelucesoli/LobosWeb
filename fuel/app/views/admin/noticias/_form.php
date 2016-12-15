@@ -1,5 +1,5 @@
 
-		<?php echo Form::open(array("class"=>"form-horizontal", 'style' => 'padding-left:15px;')); ?>
+		<?php echo Form::open(array("class"=>"form-horizontal", 'style' => 'padding-left:15px;', 'enctype'=>"multipart/form-data")); ?>
 			
 				<fieldset>
 					<div class="form-group">
