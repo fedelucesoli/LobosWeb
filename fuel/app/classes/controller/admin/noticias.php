@@ -53,6 +53,7 @@ class Controller_Admin_Noticias extends Controller_Admin
 				$post = Model_Noticias::forge(array(
 					'titulo' => Input::post('titulo'),
 					'contenido' => Input::post('contenido'),
+					'slug' =>  Inflector::friendly_title(Input::post('titulo'), '-', true),
 					'categoria' => Input::post('categoria'),
 					'usuario_id' => 1
 				));
@@ -78,7 +79,7 @@ class Controller_Admin_Noticias extends Controller_Admin
 								'thumb' => 'thumbs/'. $file['saved_as'],
 								'destacada' => 0
 								);
-
+							$noticia = Model_Noticias::find($post)
 							  $filepath=$file['saved_to'].$file['saved_as'];
 							  $filepaththumb = DOCROOT.'thumbs/'.$file['saved_as'];
 							  $image = Image::forge()->load($filepath) ->resize(400) ->save($filepaththumb);
@@ -173,4 +174,15 @@ class Controller_Admin_Noticias extends Controller_Admin
 
 	}
 
+	function _seoUrl($string) {
+		    //Lower case everything
+		    $string = strtolower($string);
+		    //Make alphanumeric (removes all other characters)
+		    $string = preg_replace("/[^a-z0-9_\s-]/", "", $string);
+		    //Clean up multiple dashes or whitespaces
+		    $string = preg_replace("/[\s-]+/", " ", $string);
+		    //Convert whitespaces and underscore to dash
+		    $string = preg_replace("/[\s_]/", "-", $string);
+		    return $string;
+		}
 }
