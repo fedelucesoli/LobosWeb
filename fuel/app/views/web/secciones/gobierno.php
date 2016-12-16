@@ -8,12 +8,17 @@
 		<div class="col-sm-6 col-md-3 col-lg-3 thumb-persona">
 			<img src="assets/img/gobierno/jorge-etcheverry.jpg" alt="" class="img-responsive">
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 ">
 			<h5 class="text-primary">INTENDENTE</h5>
 			<h2>Jorge Etcheverry</h2>
-			<p>Hola me llamo Jorge Etcheverry, tengo 52 años y nací en Elvira. Soy ingeniero agrónomo y actualmente trabajo en el campo.</p>
-			<p>En el 2013 tome el compromiso junto a mis vecinos y representamos a los productores agropecuarios. Un día cenando, mi viejo me dijo “nosotros cometimos un error, les dijimos que no se metan en nada, pero lo peor es que nosotros tampoco nos metimos en nada y esos lugares los ocuparon otros”.</p>
-			<p>A partir de ese día tome la decisión de comprometerme con los demás. Fui dos periodos presidente de la Sociedad Rural, mientras trascurría mi gestión fui convocado por todos los partidos de Lobos, y me negué, porque no tenía sentido, no se podía cambiar si estábamos divididos.</p>
+			<p>Hola me llamo Jorge Etcheverry, tengo 52 años y nací en Elvira. Soy ingeniero agrónomo y actualmente trabajo en el campo.
+			</p>
+			<p>En el 2013 tome el compromiso junto a mis vecinos y representamos a los productores agropecuarios.
+				
+			Un día cenando, mi viejo me dijo “nosotros cometimos un error, les dijimos que no se metan en nada, pero lo peor es que nosotros tampoco nos metimos en nada y esos lugares los ocuparon otros”.</p>
+			<p>
+				A partir de ese día tome la decisión de comprometerme con los demás. Fui dos periodos presidente de la Sociedad Rural, mientras trascurría mi gestión fui convocado por todos los partidos de Lobos, y me negué, porque no tenía sentido, no se podía cambiar si estábamos divididos.
+			</p>
 		</div>
 	</div>
 	<div class="row">

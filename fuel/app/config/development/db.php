@@ -8,7 +8,7 @@ return array(
 		'connection'  => array(
 			'dsn'        => 'mysql:host=localhost;dbname=lobosweb',
 			'username'   => 'root',
-			'password'   => '',
+			'password'   => 'root',
 		),
 	),
 );
