@@ -52,7 +52,7 @@
 	            <li><a href="<?php echo URI::base().'web/seccion/ciudad' ?>">CIUDAD</a></li>
 	            <li><a href="<?php echo URI::base().'web/seccion/gobierno' ?>">GOBIERNO</a></li>
 	            <!-- <li><a href="servicios.php">SERVICIOS</a></li> -->
-	            <li><a href="<?php echo URI::base().'web/seccion/noticias' ?>">NOTICIAS</a></li>
+	            <li><a href="<?php echo URI::base().'web/noticias' ?>">NOTICIAS</a></li>
 	            <li><a href="<?php echo URI::base().'web/seccion/contacto' ?>">CONTACTO</a></li>
             </ul>
         </div>

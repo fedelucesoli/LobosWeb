@@ -59,7 +59,7 @@ class Controller_Admin_Noticias extends Controller_Admin
 
 				if ($post and $post->save()){
 					$config = array(
-					    'path' => DOCROOT.'images',
+					    'path' => DOCROOT.'imagenes',
 					    'ext_whitelist' => array('img', 'jpg', 'jpeg', 'gif', 'png'),
 					);
 
@@ -72,12 +72,16 @@ class Controller_Admin_Noticias extends Controller_Admin
 						$saved_image = Upload::get_files();
 
 						foreach ($saved_image as $key => $file) {
-							$props = array(
-								'id_propiedad' => $post->id,
-								'name' => $file['saved_as'],
-								'thumb' => 'thumbs/'. $file['saved_as'],
-								'destacada' => 0
-								);
+							$noticia  = Model_Noticias::find($post->id);
+							$noticia->imagen = $file['saved_as'];
+							$noticia->save();
+
+							// $props = array(
+							// 	'id_propiedad' => $post->id,
+							// 	'name' => $file['saved_as'],
+							// 	'thumb' => 'thumbs/'. $file['saved_as'],
+							// 	'destacada' => 0
+							// 	);
 
 							  $filepath=$file['saved_to'].$file['saved_as'];
 							  $filepaththumb = DOCROOT.'thumbs/'.$file['saved_as'];

@@ -1,5 +1,8 @@
 @import url('colores.css');
+@import url('texto.css');
 @import url('https://fonts.googleapis.com/css?family=Domine:400,700|Montserrat:400,700');
+
+
 /* Header*/
 
 .navbar-default{
@@ -47,11 +50,22 @@ color: white;
 .thumb-noticia img{
 	margin-bottom: 5px;
 }
-.jumbotron .noticia{
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover; 
+
+.jumbotron.noticia{
+	 height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
 }
+
+.thumb-noticia a{
+  color: #2f3943;
+}
+.thumb-noticia a:hover{
+  text-decoration: none;
+}
+
 /* Banners */
 .banners .thumb{
 	margin: 25px 0;
@@ -119,12 +133,6 @@ color: white;
     height: 250px;
 }
 
-.header-seccion{
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 250px;
-}
 
 /* Footer */
 footer{

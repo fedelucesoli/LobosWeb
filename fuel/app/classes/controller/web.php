@@ -59,17 +59,9 @@ class Controller_Web extends Controller_Template
 
 	public function action_noticias(){
 
-            $data['noticia'] = Model_Noticias::find('all', array(
-            'where' => array(
-                array('slug', '=', $slug),
-                ),
-            ));
-            $data['noticiasrealcionadas'] = Model_Noticias::find('all', array(
-            	'where' => array(
-            		array('categoria', '=', $data['noticia']->categoria)
-            		),
-            	'limit' => '4'
-            	));
+        $data['noticias'] = Model_Noticias::find('all');
+        
+        View::set_global('noticias', $data['noticias'], false);
 
 
         $this->template->header = Response::forge(View::forge('web/includes/header'));
@@ -79,22 +71,13 @@ class Controller_Web extends Controller_Template
 
 	}
 
-	public function action_noticia($slug = null){
-		if (empty($slug)) {
+	public function action_noticia($id = null){
+		if (is_null($id)) {
 			Response::redirect('/web/noticias');
 		}else{
-            $data['noticia'] = Model_Noticias::find('all', array(
-            'where' => array(
-                array('slug', '=', $slug),
-                ),
-            ));
-            $data['noticiasrealcionadas'] = Model_Noticias::find('all', array(
-            	'where' => array(
-            		array('categoria', '=', $data['noticia']->categoria)
-            		),
-            	'limit' => '4'
-            	));
-        }
+            $data['noticia'] = Model_Noticias::find($id);
+       }
+        View::set_global('noticia', $data['noticia'], false);
 
 		$this->template->header = Response::forge(View::forge('web/includes/header'));
         $this->template->footer = Response::forge(View::forge('web/includes/footer'));

@@ -12,7 +12,7 @@
 	<div class="row">
 	<?php foreach ($posts as $item): ?>		<tr>
 		<div class="col-sm-6 col-md-4 col-lg-3 thumb-noticia">
-			<img src="assets/img/noticias/1.jpg" alt="" class="img-responsive">
+			<img src="<?php echo Uri::base() .'thumbs/'. $item->imagen ?>" alt="" class="img-responsive">
 			<h5 class="text-muted small"></h5>
 			<a href="<?php echo Uri::base().'admin/noticias/view/'.$item->id ?>"><h4><?php echo $item->titulo ?></h4></a>
 		</div>

@@ -1,21 +1,22 @@
 <?php
-return array(
+return array (
   'version' => 
-  array(
+  array (
     'app' => 
-    array(
+    array (
       'default' => 
-      array(
+      array (
         0 => '001_create_posts',
+        1 => '002_create_turismo_servicios',
       ),
     ),
     'module' => 
-    array(
+    array (
     ),
     'package' => 
-    array(
+    array (
       'auth' => 
-      array(
+      array (
         0 => '001_auth_create_usertables',
         1 => '002_auth_create_grouptables',
         2 => '003_auth_create_roletables',

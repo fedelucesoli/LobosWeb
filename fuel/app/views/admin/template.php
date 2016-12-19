@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -77,6 +77,9 @@
 							<?php
 						}
 					?>
+					<li class="<?php echo Uri::segment(2) == $section_segment ? 'active' : '' ?>">
+						<?php echo Html::anchor('admin/turismo/servicios','Turismo') ?>
+					</li>
 				</ul>
 				<ul class="nav navbar-nav pull-right">
 					<li class="dropdown  dropdown-menu-left">

@@ -8,6 +8,7 @@ class Model_Noticias extends \Orm\Model
 		'descripcion',
 		'contenido',
 		'categoria',
+		'imagen',
 		'usuario_id',
 		'created_at',
 		'updated_at',
