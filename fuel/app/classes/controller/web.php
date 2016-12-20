@@ -28,6 +28,15 @@ class Controller_Web extends Controller_Template
 		
 		$data = array('slider' => Response::forge(View::forge('web/layouts/slider')));
 
+		$data['noticias'] = Model_Noticias::find('all', array(
+			'limit' => 4,
+			'order' => array(
+				'created_at' => 'desc')
+			));
+        View::set_global('noticias', $data['noticias'], false);
+
+		$data['seccionnoticias'] = Response::forge(View::forge('web/layouts/articulo', $data));
+
         $this->template->header = Response::forge(View::forge('web/includes/header'));
         $this->template->footer = Response::forge(View::forge('web/includes/footer'));
 
@@ -81,7 +90,7 @@ class Controller_Web extends Controller_Template
 
 		$this->template->header = Response::forge(View::forge('web/includes/header'));
         $this->template->footer = Response::forge(View::forge('web/includes/footer'));
-        $this->template->contenido = View::forge('web/secciones/noticia' , $data);
+        $this->template->contenido = View::forge('web/layouts/noticia' , $data);
 	}
 	
 	/**

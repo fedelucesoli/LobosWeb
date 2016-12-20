@@ -63,35 +63,8 @@
     </div>
 </section>
 
-<section class="noticias">
-  <div class="container">
-<div class="row">
-  <div class="page-header">
-    <h3>Noticias de Lobos</h3>
-  </div>
-</div>
-  <div class="row">
-    <div class="col-sm-6 col-md-4 col-lg-3 thumb-noticia">
-      <img src="assets/img/noticias/1.jpg" alt="" class="img-responsive">
-      <h4>Llega el asfalto a la calle ayacucho</h4>
-      <p class="text-muted small">Jueves 17 de Noviembre</p>
 
-    </div><div class="col-sm-6 col-md-4 col-lg-3 thumb-noticia">
-      <img src="assets/img/noticias/2.jpg" alt="" class="img-responsive">
-      <h4>Etcheverry entregó subsidios a las bibliotecas de Lobos</h4>
-      <p class="text-muted small">Jueves 17 de Noviembre</p>
-
-    </div><div class="col-sm-6 col-md-4 col-lg-3 thumb-noticia">
-      <img src="assets/img/noticias/3.jpg" alt="" class="img-responsive">
-      <h4>Más de 1 millón de pesos a microemprendedores, pymes y productores ganaderos</h4>
-      <p class="text-muted small">Jueves 17 de Noviembre</p>
-
-    </div>
-  </div>
-  
-</div>
-</section>
-
+<?php echo $seccionnoticias ?>
 
 
 <section class="banners">

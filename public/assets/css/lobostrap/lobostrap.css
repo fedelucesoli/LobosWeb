@@ -40,7 +40,13 @@ color: white;
 }
 
 .icon-background-youtube{
-	color: #cd201f; 
+  color: #cd201f; 
+}
+.icon-background-google{
+  color: #DC4B37; 
+}
+.icon-background-email{
+	color: #a6a9ac; 
 }
 
 /* Noticias */
@@ -49,6 +55,7 @@ color: white;
 }
 .thumb-noticia img{
 	margin-bottom: 5px;
+  max-height: 170px;
 }
 
 .jumbotron.noticia{
@@ -56,7 +63,6 @@ color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-
 }
 
 .thumb-noticia a{
@@ -64,6 +70,28 @@ color: white;
 }
 .thumb-noticia a:hover{
   text-decoration: none;
+}
+
+.social-noticias h5{ display: inline;}
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+ul.share-buttons .sr-only {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }
 
 /* Banners */

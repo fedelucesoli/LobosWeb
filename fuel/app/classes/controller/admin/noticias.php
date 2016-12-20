@@ -25,7 +25,10 @@ class Controller_Admin_Noticias extends Controller_Admin
 
 	public function action_index()
 	{
-		$data['posts'] = Model_Noticias::find('all');
+		$data['posts'] = Model_Noticias::find('all', array(
+			'order' => array(
+				'created_at' => 'desc')
+			));
 		$data['titulo'] = "Noticias";
 		$this->template->content = View::forge('admin/noticias/index', $data);
 
