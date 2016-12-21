@@ -9,6 +9,13 @@
 			
 			
 			<p class="lead">Ubicada a 100 km de Buenos Aires, Lobos es una ciudad de la provincia de Buenos Aires, Argentina, cabecera del partido homónimo. Traza su origen a la fundación realizada el 2 de junio de 1802 por José Salgado.</p>
+			
+<p>En 1740 es explorado el centro y sur de lo que sería la Provincia de Buenos Aires por la Primera Misión Jesuítica. Integraba esta misión el Rvdo. Padre Folkner quien tenía a su cargo reunir toda la información sobre el lugar. En base a sus escritos se confecciona en Londres, en 1772, la primera carta geográfica relativa a esta zona, inscribiéndose en el mismo y al pie de la laguna "L. Lobos".</p>
+<p></p>
+<p>El espejo de agua estaba poblado por numerosas nutrias. En aquellos tiempos eran conocidas con la denominación de Lobos de agua o de río, por lo que se deduce que la Laguna pudo haber tomado su nombre de esta referencia realizada por la Misión en 1740.</p>
+<p></p>
+<p>El acta labrada por el Cabildo de Buenos Aires el 17- 3- 1752 es el documento más antiguo conocido en el que se denomina "de Los Lobos" a la laguna cuyo nombre dio origen al del Fortín de San Pedro de Los Lobos, construido en 1779, a orillas de la misma, en la segunda avanzada contra el indio, organizada por el Virrey Vertiz. La única referencia cartográfica con que se cuenta sobre la ubicación del Fortín es el Plano confeccionado en 1822, en el viaje de la Comisión al Sud, por el Oficial Ingeniero Ayudante de Artillería Don José María Reyes. En él se revela la Laguna y entre dos cursos de agua se señala la existencia del Fortín ya destruido.</p>
+			<br>
 			<h3>Marco histórico de su fundación</h3>
 			<p>En el siglo XVIII ocurrieron dos procesos:
 
@@ -22,12 +29,12 @@ Las vaquerías indiscriminadas provocaron la disminución del ganado cimarrón, 
 
 <p>La línea de frontera fue consolidada por el Virrey Vértiz y su Comandante de Artillería de Fronteras Francisco de Betbezé, mediante la construcción o reconstrucción de fuertes en 1779, que fueron origen de importantes localidades bonaerenses, entre ellos el Fortín de San Pedro de Los Lobos.</p>
  
-<figure>
-  <img class="img-responsive img-rounded" src="http://historiasaladillo.com.ar/hs/wp-content/uploads/2015/02/Fort%C3%ADn-Esperanza.jpg">
+<!-- <figure style="text-align: center">
+  <img class="img-rounded" src="http://historiasaladillo.com.ar/hs/wp-content/uploads/2015/02/Fort%C3%ADn-Esperanza.jpg">
   <br>
   <figcaption class="text-center text-muted">Fortín.</figcaption>
 </figure>
-
+<br> -->
 
 <p>El mismo se erigió en la margen norte de la Laguna de Lobos, a trescientos metros de la ribera, en un lugar casi equidistante entre la desembocadura del Arroyo Las Garzas y el punto que nace el Saladillo Rodríguez y su obra se concluyó el 21 de agosto de 1779. El Fortín estaba formado por unos cuantos ranchos de barro y paja, sin puertas ni ventanas, rodeado por una defensa de palos a pique. La presencia de los indios se avisoraba desde el mangrullo. En 1792 lo habitaban 16 milicianos.</p>
  

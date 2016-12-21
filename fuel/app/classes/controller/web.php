@@ -35,7 +35,7 @@ class Controller_Web extends Controller_Template
 			));
         View::set_global('noticias', $data['noticias'], false);
 
-		$data['seccionnoticias'] = Response::forge(View::forge('web/layouts/articulo', $data));
+		$data['seccionnoticias'] = Response::forge(View::forge('web/layouts/noticias', $data));
 
         $this->template->header = Response::forge(View::forge('web/includes/header'));
         $this->template->footer = Response::forge(View::forge('web/includes/footer'));
@@ -61,8 +61,6 @@ class Controller_Web extends Controller_Template
 			
 			Response::redirect(Uri::base());
 		}
-		
-	
         
 	}
 
