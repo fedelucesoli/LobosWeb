@@ -17,14 +17,18 @@
 
 }
 .navbar-lobos .navbar-brand{
-  height: 100px;
+  height: 80px;
+}
+.navbar-lobos img{
+  height: 60px;
 }
 
 .navbar-toggle{
 	margin: 30px;
 }
 .social-wrapper{
-	line-height: 6em;
+	line-height: 5em;
+  margin-right: 45px;
 }
 
 .fa-white{

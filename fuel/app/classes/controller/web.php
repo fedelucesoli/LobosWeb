@@ -88,7 +88,7 @@ class Controller_Web extends Controller_Template
 
 		$this->template->header = Response::forge(View::forge('web/includes/header'));
         $this->template->footer = Response::forge(View::forge('web/includes/footer'));
-        $this->template->contenido = View::forge('web/layouts/noticia' , $data);
+        $this->template->contenido = View::forge('web/layouts/articulo' , $data);
 	}
 	
 	/**

@@ -7,7 +7,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-        <link rel="icon" type="image/png" href="<?php echo Asset::get_file('favicon-32x32.png', 'img', 'common') ?>" sizes="32x32" />
+
+    <link rel="icon" type="image/png" href="<?php echo Asset::get_file('favicon-32x32.png', 'img', 'common') ?>" sizes="32x32" />
     <link rel="icon" type="image/png" href="<?php echo Asset::get_file('favicon-16x16.png', 'img', 'common') ?>" sizes="16x16" />
     <link rel="icon" type="image/png" href="<?php echo Asset::get_file('favicon.ico', 'img', 'common') ?>" sizes="16x16" />
 
@@ -19,11 +20,12 @@
 
     <!-- Custom styles for this template -->
     <?php echo Asset::css('dist/bootstrap.css') ?>
+
     <?php echo Asset::css('lobostrap/lobostrap.css') ?>
     <?php echo Asset::css('lobostrap/colores.css') ?>
     <?php echo Asset::css('dist/summernote.css') ?>
 
-    <style>body{margin-top: 80px;}</style>
+    <style>body{margin-top: 100px;}</style>
     <script src="https://use.fontawesome.com/359ed0bee6.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<?php echo Asset::js(array('bootstrap.min.js', 'summernote.min.js',	'summernote-es-ES.js')) ?>
@@ -54,8 +56,11 @@
 		            <span class="icon-bar"></span>
 		            <span class="icon-bar"></span>
 		            </button>
-		            <a class="navbar-brand" href="<?php echo Uri::base() ?>" style= "padding-top:0px">
+		            <a class="navbar-brand hidden-sm" href="<?php echo Uri::base() ?>" style= "padding-top:0px">
 		           	 <?php echo Asset::img('logo-municipio-CMS.svg', array('alt'=>'Municipio de Lobos')) ?>
+		            </a>
+		            <a class="navbar-brand hidden-md" href="<?php echo Uri::base() ?>" style= "padding-top:0px">
+		           	 Municipio de Lobos
 		            </a>
 		        </div>
 			<div class="navbar-collapse collapse">

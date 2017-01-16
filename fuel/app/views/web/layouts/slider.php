@@ -9,7 +9,9 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="<?php echo URI::base().'assets/img/slider/horarios.png'; ?>" alt="...">
+        <a href="#">
+          <img src="<?php echo URI::base().'assets/img/slider/horarios.png'; ?>" alt="...">
+        </a>
       </div>
       <div class="item">
         <img src="<?php echo URI::base().'assets/img/slider/1140.png'; ?>" alt="...">

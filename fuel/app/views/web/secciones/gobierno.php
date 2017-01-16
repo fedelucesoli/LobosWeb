@@ -6,7 +6,8 @@
 	</div>
 	<div class="row">
 		<div class="col-sm-6 col-md-3 col-lg-3 thumb-persona">
-			<img src="assets/img/gobierno/jorge-etcheverry.jpg" alt="" class="img-responsive">
+			<?php echo Asset::img('gobierno/jorge-etcheverry.jpg', array('class'=>'img-responsive', 'style' => 'width: 124px', 'alt' =>'Jorge Etcheverry' )) ?>
+
 		</div>
 		<div class="col-md-6 ">
 			<h5 class="text-primary">INTENDENTE</h5>
@@ -29,7 +30,8 @@
 			<div class="media">
 			  <div class="media-left">
 			    <a href="#">
-			      <img class="media-object" style="width: 124px;" src="assets/img/gobierno/sebastian-giralde.jpg" alt="..." >
+			    	<?php echo Asset::img('gobierno/sebastian-giralde.jpg', array('class'=>'media-object', 'style' => 'width: 124px', 'alt' =>'Sebastián Giralde' )) ?>
+
 			    </a>
 			  </div>
 			  <div class="media-body">
@@ -44,7 +46,8 @@
 			<div class="media">
 			  <div class="media-left">
 			    <a href="#">
-			      <img class="media-object" style="width: 124px;" src="assets/img/gobierno/jorge-etcheverry.jpg" alt="..." >
+			    	<?php echo Asset::img('gobierno/roberto-di-tomasso.jpg', array('class'=>'media-object', 'style' => 'width: 124px', 'alt' =>'Roberto Di Tomasso' )) ?>
+
 			    </a>
 			  </div>
 			  <div class="media-body">
@@ -59,7 +62,7 @@
 			<div class="media">
 			  <div class="media-left">
 			    <a href="#">
-			      <img class="media-object" style="width: 124px;" src="assets/img/gobierno/jorge-etcheverry.jpg" alt="..." >
+			    	<?php echo Asset::img('gobierno/julio-rustom.jpg', array('class'=>'media-object', 'style' => 'width: 124px', 'alt' =>'Julio Rustom' )) ?>
 			    </a>
 			  </div>
 			  <div class="media-body">
@@ -74,7 +77,8 @@
 			<div class="media">
 			  <div class="media-left">
 			    <a href="#">
-			      <img class="media-object" style="width: 124px;" src="assets/img/gobierno/jorge-etcheverry.jpg" alt="..." >
+			    	<?php echo Asset::img('gobierno/pablo-hasper.jpg', array('class'=>'media-object', 'style' => 'width: 124px', 'alt' =>'Pablo Hasper' )) ?>
+
 			    </a>
 			  </div>
 			  <div class="media-body">
@@ -89,7 +93,6 @@
 			<div class="media">
 			  <div class="media-left">
 			    <a href="#">
-			      <img class="media-object" style="width: 124px;" src="assets/img/gobierno/jorge-etcheverry.jpg" alt="..." >
 			    </a>
 			  </div>
 			  <div class="media-body">
@@ -104,7 +107,7 @@
 			<div class="media">
 			  <div class="media-left">
 			    <a href="#">
-			      <img class="media-object" style="width: 124px;" src="assets/img/gobierno/jorge-etcheverry.jpg" alt="..." >
+			    	<?php echo Asset::img('gobierno/guillermo-galazzi.jpg', array('class'=>'media-object', 'style' => 'width: 124px', 'alt' =>'Guillermo Galazzi' )) ?>
 			    </a>
 			  </div>
 			  <div class="media-body">
