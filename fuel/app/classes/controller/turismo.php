@@ -28,14 +28,14 @@ class Controller_Turismo extends Controller_Template
 		
 		$data = array('slider' => Response::forge(View::forge('turismo/layouts/slider')));
 
-		$data['noticias'] = Model_Noticias::find('all', array(
-			'limit' => 4,
-			'order' => array(
-				'created_at' => 'desc')
-			));
-        View::set_global('noticias', $data['noticias'], false);
+		// $data['noticias'] = Model_Noticias::find('all', array(
+		// 	'limit' => 4,
+		// 	'order' => array(
+		// 		'created_at' => 'desc')
+		// 	));
+  		// View::set_global('noticias', $data['noticias'], false);
 
-		$data['seccionnoticias'] = Response::forge(View::forge('turismo/layouts/noticias', $data));
+		// $data['seccionnoticias'] = Response::forge(View::forge('turismo/layouts/noticias', $data));
 
         $this->template->header = Response::forge(View::forge('turismo/includes/header'));
         $this->template->footer = Response::forge(View::forge('turismo/includes/footer'));
@@ -47,21 +47,35 @@ class Controller_Turismo extends Controller_Template
 
 	public function action_seccion($seccion = null){
 
-		$existe = File::exists(APPPATH.'/views/web/secciones/'.$seccion.'.php');
+		$existe = File::exists(APPPATH.'/views/turismo/secciones/'.$seccion.'.php');
 
 		if(isset($seccion) && $existe){
 			$data = array();
-       		$this->template->header = Response::forge(View::forge('web/includes/header'));
-        	$this->template->telefonos = Response::forge(View::forge('web/layouts/telefonos'));
-        	$this->template->footer = Response::forge(View::forge('web/includes/footer'));
+       		$this->template->header = Response::forge(View::forge('turismo/includes/header'));
+        	$this->template->telefonos = Response::forge(View::forge('turismo/layouts/telefonos'));
+        	$this->template->footer = Response::forge(View::forge('turismo/includes/footer'));
 
-        	$this->template->contenido = View::forge('web/secciones/'.$seccion , $data);
+        	$this->template->contenido = View::forge('turismo/secciones/'.$seccion , $data);
 
 		}else{
 			
 			Response::redirect(Uri::base());
 		}
         
+	}
+
+	public function action_servicios(){
+
+        $data['servicios'] = Model_Noticias::find('all');
+        
+        View::set_global('noticias', $data['noticias'], false);
+
+
+        $this->template->header = Response::forge(View::forge('web/includes/header'));
+        $this->template->footer = Response::forge(View::forge('web/includes/footer'));
+        $this->template->contenido = View::forge('web/secciones/noticias' , $data);
+
+
 	}
 
 	public function action_noticias(){

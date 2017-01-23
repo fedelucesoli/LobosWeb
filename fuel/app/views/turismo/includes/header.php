@@ -47,12 +47,14 @@
         <!-- Header -->
         
         <!-- Navbar Links -->
-        <div class="collapse navbar-collapse navbar-right">
+        <div class="collapse navbar-collapse ">
             <ul class="nav navbar-nav">
 	            <li><a href="<?php echo URI::base().'web/seccion/ciudad' ?>">CIUDAD</a></li>
-	            <li><a href="<?php echo URI::base().'web/seccion/gobierno' ?>">GOBIERNO</a></li>
+	            <li><a href="<?php echo URI::base().'web/seccion/gobierno' ?>">QUE HACER</a></li>
 	            <!-- <li><a href="servicios.php">SERVICIOS</a></li> -->
-	            <li><a href="<?php echo URI::base().'web/noticias' ?>">NOTICIAS</a></li>
+                <li><a href="<?php echo URI::base().'web/noticias' ?>">SERVICIOS</a></li>
+                <li><a href="<?php echo URI::base().'web/noticias' ?>">NOVEDADES</a></li>
+	            <li><a href="<?php echo URI::base().'web/noticias' ?>">EVENTOS</a></li>
 	            <li><a href="<?php echo URI::base().'web/seccion/contacto' ?>">CONTACTO</a></li>
             </ul>
         </div>

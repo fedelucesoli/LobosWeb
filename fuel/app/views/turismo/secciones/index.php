@@ -64,30 +64,4 @@
 </section>
 
 
-<?php echo $seccionnoticias ?>
-
-
-<section class="banners">
-  <div class="container">
-<div class="row">
-  <div class="page-header">
-   
-  </div>
-</div>
-  <div class="row">
-    <div class="col-sm-6 col-md-3 col-lg-3 thumb">
-      <img src="assets/img/banners/banner01.png" alt="" class="img-responsive">
-    </div>
-    <div class="col-sm-6 col-md-3 col-lg-3 thumb">
-      <img src="assets/img/banners/banner02.gif" alt="" class="img-responsive">
-    </div>
-    <div class="col-sm-6 col-md-3 col-lg-3 thumb">
-      <img src="assets/img/banners/banner03.png" alt="" class="img-responsive">
-    </div>
-    <div class="col-sm-6 col-md-3 col-lg-3 thumb">
-      <img src="assets/img/banners/banner04.gif" alt="" class="img-responsive">
-    </div>
-  </div>
-  
-</div>
-</section>
+<?php //echo $seccionnoticias ?>

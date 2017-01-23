@@ -7,43 +7,64 @@
 				<h1>Partido de Lobos</h1>
 			</div>
 			
-			
-			<p class="lead">Ubicada a 100 km de Buenos Aires, Lobos es una ciudad de la provincia de Buenos Aires, Argentina, cabecera del partido homónimo. Traza su origen a la fundación realizada el 2 de junio de 1802 por José Salgado.</p>
-			
-<p>En 1740 es explorado el centro y sur de lo que sería la Provincia de Buenos Aires por la Primera Misión Jesuítica. Integraba esta misión el Rvdo. Padre Folkner quien tenía a su cargo reunir toda la información sobre el lugar. En base a sus escritos se confecciona en Londres, en 1772, la primera carta geográfica relativa a esta zona, inscribiéndose en el mismo y al pie de la laguna "L. Lobos".</p>
-<p></p>
-<p>El espejo de agua estaba poblado por numerosas nutrias. En aquellos tiempos eran conocidas con la denominación de Lobos de agua o de río, por lo que se deduce que la Laguna pudo haber tomado su nombre de esta referencia realizada por la Misión en 1740.</p>
-<p></p>
-<p>El acta labrada por el Cabildo de Buenos Aires el 17- 3- 1752 es el documento más antiguo conocido en el que se denomina "de Los Lobos" a la laguna cuyo nombre dio origen al del Fortín de San Pedro de Los Lobos, construido en 1779, a orillas de la misma, en la segunda avanzada contra el indio, organizada por el Virrey Vertiz. La única referencia cartográfica con que se cuenta sobre la ubicación del Fortín es el Plano confeccionado en 1822, en el viaje de la Comisión al Sud, por el Oficial Ingeniero Ayudante de Artillería Don José María Reyes. En él se revela la Laguna y entre dos cursos de agua se señala la existencia del Fortín ya destruido.</p>
-			<br>
-			<h3>Marco histórico de su fundación</h3>
-			<p>En el siglo XVIII ocurrieron dos procesos:
+			<h3>CIUDAD</h3>
+<p>Don José Salgado y su señora Doña Pascuala Rivas de Salgado  reciben  en 1802  por parte del Virrey Vertíz, estas tierras, donde construyen una pequeña Capilla bajo la Advocación de Nuestra Señora del Carmen. 
+	Al instalarse la Capilla, algunas Familias comienzan a afincarse alrededor de la misma, nombrando al pueblo San Salvador de los Lobos. </p>
 
-Las vaquerías indiscriminadas provocaron la disminución del ganado cimarrón, por lo que creció la importancia de las estancias como proveedoras de cueros para la exportación. En esta misma época los araucanos trasandinos, que ya habían empezado a cruzar la cordillera, predominando sobre los indios de la Patagonia y mezclándose con ellos avanzaron decididamente sobre la llanura y comenzaron a llevarse en gran escala arreos de ganados a Chile, disminuyendo la cantidad de vacunos en la pampa. El malón comenzó a generalizarse y con ello los enfrentamientos con los españoles, generándose así una lucha que solo acabaría varias décadas después de la Independencia, con la campaña de la Conquista del Desierto.</p>
+<h3>CENTRO HISTÒRICO</h3>
+<br>
 
- 
+<h4>Iglesia Nuestra Señora del Carmen</h4>
+<p>Construida por el fundador del pueblo Don José salgado, teniendo como registro de la primera actividad un acta de defunción en el año 1803.
+	La actual construcción data del año 1906,  su estilo  arquitectónico es el Neogótico.
+	Esta Iglesia tiene capacidad para 2000 personas, y se destaca por sus vitrales y el altar mayor construido completamente de mármol de Carrara.
+	Monumento Histórico Nacional  (Decreto 1020/2004).</p>
+<br>
+<h4>Palacio Municipal</h4>
+<p>Esta construcción fue inaugurada en el año 1944. Su planta se desarrolla en forma de U, abrazando el patio central. Sus líneas son modernas y su fachada (Art Deco). 
+	En su interior se encuentra el Poder Ejecutivo Municipal, con algunas de sus secretarías  y el poder Legislativo (Concejo Deliberante).</p>
 
-<p>La línea de fronteras pasó a primer plano en la preocupación de las autoridades y la ocupación de “la pampa”  tomó características de conquista militar. En 1752 se crearon las famosas compañías de Blandengues: La Valerosa, que se instaló en las márgenes del Río Luján, La Invencible, que se acantonó en Salto (Buenos Aires) y La Atrevida Conquistadora que se ubicó en las márgenes del Río Samborombón, en el Zanjón, hoy Chascomús. Para su resguardo se construyeron tres fuertes, alrededor de los cuales se fue produciendo un espontáneo agrupamiento de habitantes.</p>
+<br>
+<h4>Club Social Lobense</h4>
 
- 
+<p>El club se fundó el 1 de Marzo 1894, con el objeto de formar una escuela musical. Una vez organizada, la misma se desarrolla bajo la dirección del Maestro Emilio Zarini, uno de los primeros músicos locales. Este edificio fue inaugurado en 1932 fue  declarado Monumento Histórico Nacional, es de dos plantas, con fachada neoclásica y alguna influencia art decó. 
+	Actualmente posee un salón para uso de eventos sociales y culturales. En su planta baja, se encuentra un Restaurante. 
+	Fue declarado dentro del sector de Preservación Histórico Patrimonial bajo Ord. Mun. N°2074/01.</p>
+<br>
+<h4>Plaza 1810</h4>
+<p>Es la plaza principal de la Ciudad, está ubicada frente a la Parroquia Nuestra Señora del Carmen y el Palacio Municipal. Su origen data de 1811 y los terrenos fueron donados por el primer Intendente del partido, Manuel Antonio Caminos. La plaza se llamó "Buenos Aires" pero luego, al cumplirse el centenario de la Revolución de Mayo, se le cambió el  nombre por el actual. 
+	En su centro se destaca el monumento a la Madre construido en 1962 por el escultor Luis Perlotti, y en 2005 se construye la fuente en el cual se encuentra actualmente. 
+	Fue declarado Lugar Histórico Nacional </p>
+	<br>
+<h4>Casa de Salgado</h4>
+<p>Es una casa de estilo Colonial, que perteneció a la familia del fundador del pueblo José Salgado.
+	Actualmente funciona  “Lo de Salgado” Bed & Breakfast.
+	Fue declarado dentro del sector de Preservación Histórico Patrimonial bajo Ord. Mun. N°2074/01.</p>
+<br>
 
-<p>La línea de frontera fue consolidada por el Virrey Vértiz y su Comandante de Artillería de Fronteras Francisco de Betbezé, mediante la construcción o reconstrucción de fuertes en 1779, que fueron origen de importantes localidades bonaerenses, entre ellos el Fortín de San Pedro de Los Lobos.</p>
- 
-<!-- <figure style="text-align: center">
-  <img class="img-rounded" src="http://historiasaladillo.com.ar/hs/wp-content/uploads/2015/02/Fort%C3%ADn-Esperanza.jpg">
-  <br>
-  <figcaption class="text-center text-muted">Fortín.</figcaption>
-</figure>
-<br> -->
+<h4>Lobos Athletic Club</h4>
+<p>Es una institución deportiva que fue fundada en 1892 por irlandeses, convirtiéndose en el uno de los equipos pioneros del Fútbol en nuestro País.
+	Fue subcampeón de la Argentine Associatión Football League en dos oportunidades; 1898 y 1899.
+	 El 30 de julio de 1899 el Lobos Athletic Club fue extendiendo su fama y traspasando las fronteras al convertirse en el primer equipo argentino de fútbol en salir del país.</p>
+<br>
+<h4>Sociedad Española de Socorros Mutuos</h4>
+<p>En 1867 se constituye la Sociedad de Socorros Mutuos,  inaugurando el edificio el  2 de mayo de 1900.
+	En la principal sala de este edificio se proyecta por primera vez cine en el año 1910. Fue declarado dentro del sector de Preservación Histórico Patrimonial bajo Ord. Mun. N°2074/01 y Patrimonio Histórico, Cultural y Arquitectónico de Lobos por Ord. Mun. 2045/00. </p>
+<br>
+<h4>Teatro Cine Italiano</h4>
+<p>Este Teatro fue construido en 1918, por el constructor Gino, Peressini  como lugar de encuentro de inmigrantes italianos afianzados en nuestra ciudad.
+	Su estilo es a la italiana y alberga alrededor de 400  personas. 
+	Después de estar varios años cerrados en el 2015 re abrió sus puertas, totalmente renovado. 
+	Actualmente en su interior funciona la Dirección de Cultura y el fin de semana la oficina de Información Turística.
+	Semanalmente la gente de la ciudad puede disfrutar de los estrenos de películas argentinas. 
+	Fue declarado dentro del sector de Preservación Histórico Patrimonial bajo Ord. Mun. N°2074/01 y Patrimonio Histórico, Cultural y Arquitectónico de Lobos por Ord. Mun. 2044/00. </p>
 
-<p>El mismo se erigió en la margen norte de la Laguna de Lobos, a trescientos metros de la ribera, en un lugar casi equidistante entre la desembocadura del Arroyo Las Garzas y el punto que nace el Saladillo Rodríguez y su obra se concluyó el 21 de agosto de 1779. El Fortín estaba formado por unos cuantos ranchos de barro y paja, sin puertas ni ventanas, rodeado por una defensa de palos a pique. La presencia de los indios se avisoraba desde el mangrullo. En 1792 lo habitaban 16 milicianos.</p>
- 
+<br>
+<h4>Estación del Ferrocarril Lobos </h4>
+<p>Esta estación pertenece a la Línea Sarmiento.  Se trata de una típica construcción inglesa que fue habilitada en 1890. En el cuadro de campo de la estación se encuentra la Biblioteca Héroes de Malvinas, de la Asociación de Excombatientes, el Club de Radioaficionados, la Plazoleta de los Inmigrantes, el Paseo de las Esculturas, el Galpón Cultural y el Galpón Bicentenario.
+	Fue declarada Patrimonio Cultural de Lobos por Ordenanza Nº 1696/95 y sector de Preservación Histórico Patrimonial bajo Ord. Mun. N°2074/01. </p>
 
-<p>Don José Salgado, que había recibido del Virrey, hacia fines del siglo XVIII, tierras para trabajar, erige a dos leguas al norte del Fortín y en el año 1802, una capilla a sus expensas y la dota de útiles y ornatos, celebrándose los primeros oficios religiosos el 9 de junio de 1803. La antigua capilla fue levantada en el solar que ocupa el actual Templo Parroquial.</p>
-<p>Nace así, al crearse este curato perteneciente a la Parroquia de Morón, el pueblo actual, que no tenía más vecinos que la familia Salgado, ya que el resto de la población, compuesta por 141 familias se hallaba dispuesto en chacras y estancias en el resto del Distrito. Al instalarse la Capilla, algunas Familias comienzan a afincarse junto al camino de las carretas por lo que surge la necesidad de delimitar la traza del Pueblo.</p>
- 
-<p>
-En 1804, don Ramón de Urquiola, vecino del lugar, apoyado por el Cura Párroco Don José García Miranda, solicita al Virrey la Traza del Pueblo de San Salvador de Los Lobos y la demarcación de un terreno para el ganado de la Iglesia, lográndose recién en el año 1811 la delimitación del Pueblo de San Salvador de la Guardia del Partido de Lobos.</p>
+
 		</div>
 	</div>
 	
