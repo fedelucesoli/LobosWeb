@@ -1,56 +1,24 @@
 @import url('colores.css');
 @import url('texto.css');
+@import url('menu.css');
 @import url('https://fonts.googleapis.com/css?family=Domine:400,700|Montserrat:400,700');
 
-
-/* Header*/
-
-.navbar-default{
-  border-radius: 0;
-  font-family: "Montserrat";
-  border-width: 0 0 1px 0;
+.block {
+  margin: 0;
 }
-.navbar-lobos{
-  margin-left: 0;
-  margin-bottom: 0;
-  border-bottom: 3px solid #EE3A39;
-
+.block .carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 600px; /*slider height*/
 }
-.navbar-lobos .navbar-brand{
-  height: 80px;
+.block .carousel .item img {
+    width: 100%; /*img width*/
 }
-.navbar-lobos img{
-  height: 60px;
-}
-
-.navbar-toggle{
-	margin: 30px;
-}
-.social-wrapper{
-	line-height: 5em;
-  margin-right: 45px;
-}
-
-.fa-white{
-color: white;
-}
-
-.icon-background-facebook{
-	color: #3b5999; 
-}
-
-.icon-background-twitter{
-	color: #55acee; 
-}
-
-.icon-background-youtube{
-  color: #cd201f; 
-}
-.icon-background-google{
-  color: #DC4B37; 
-}
-.icon-background-email{
-	color: #a6a9ac; 
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
 }
 
 /* Noticias */

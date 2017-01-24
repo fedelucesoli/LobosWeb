@@ -50,8 +50,46 @@
         <div class="collapse navbar-collapse ">
             <ul class="nav navbar-nav">
 	            <li><a href="<?php echo URI::base().'web/seccion/ciudad' ?>">CIUDAD</a></li>
-	            <li><a href="<?php echo URI::base().'web/seccion/gobierno' ?>">QUE HACER</a></li>
-	            <!-- <li><a href="servicios.php">SERVICIOS</a></li> -->
+
+    	       <li class="dropdown mega-dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">QUE HACER? <span class="caret"></span></a>              
+                <ul class="dropdown-menu mega-dropdown-menu">
+                    
+                    <li class="col-sm-2">
+                        <ul>
+                            <li class="dropdown-header"><a href="">LAGUNA DE LOBOS</a></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li class="col-sm-2">
+                        <ul>
+                            <li class="dropdown-header"><a href="">TURISMO RURAL</a></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li class="col-sm-2">
+                        <ul>
+                            <li class="dropdown-header">TURISMO RELIGIOSO</li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li class="col-sm-2">
+                        <ul>
+                            <li class="dropdown-header">TURISMO ACTIVO</li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li class="col-sm-2">
+                        <ul>
+                            <li class="dropdown-header">TURISMO DE REUNIONES</li>
+                            <li></li>
+                        </ul>
+                    </li>
+
+                   
+                </ul>               
+            </li>
+
                 <li><a href="<?php echo URI::base().'web/noticias' ?>">SERVICIOS</a></li>
                 <li><a href="<?php echo URI::base().'web/noticias' ?>">NOVEDADES</a></li>
 	            <li><a href="<?php echo URI::base().'web/noticias' ?>">EVENTOS</a></li>

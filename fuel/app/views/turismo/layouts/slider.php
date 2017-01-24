@@ -1,4 +1,4 @@
-<div class="container">
+<div class="block">
   <div id="slider" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
